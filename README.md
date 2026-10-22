@@ -1,4 +1,4 @@
-# ED-TSSL-DNABERT-V2.0
+# TSS-BERTUNet
 
 **TSS-BERTUNet**: pretrained representation alignment with neighborhood supervision for base-resolution TSS localization.
 
