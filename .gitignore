@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+.venv/
+venv/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Model weights and checkpoints (do not commit)
+checkpoints/
+*.pth
+*.pt
+*.safetensors
+DNABERT-2-117M/pytorch_model.bin
+*.bin
+
+# Large raw genome files
+data/dataset/*.fna
+data/dataset/*.fasta
+data/dataset/*.fa
+
+# Large validation dumps / reproducible artifacts
+results/**/*_summary.json
+results/training_pic/
+visualizations/
+wandb/
+.ipynb_checkpoints/
+
+# Local temp
+*.log
+tmp/
+temp/
